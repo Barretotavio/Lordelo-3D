@@ -1,0 +1,53 @@
+.container-sign-in {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    position: relative;
+}
+
+.content-sign-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0 50px;
+
+}
+
+.left-side {
+    width: 35%;
+
+    background-image: url(../../assets/logologo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rigth-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rigth-side form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 24px;
+
+    min-height: 420px;
+    width: 400px;
+}
+
+.rigth-side form button {
+    margin-top: 52px;
+}

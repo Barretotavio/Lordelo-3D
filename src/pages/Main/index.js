@@ -5,7 +5,7 @@ import SignIn from '../SignIn';
 function Main() {
 
     return (
-        <div className='conteiner-main'>
+        <div className='container-main'>
             <Routes>
                 <Route path='/sign-in' element={<SignIn />} />
             </Routes>
