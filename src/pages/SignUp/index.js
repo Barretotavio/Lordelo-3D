@@ -1,7 +1,7 @@
 import './styles.css';
 import Logo from '../../assets/logo.svg';
 
-function SignIn() {
+function SignUp() {
   return (
     <div className='container-sign-in'>
       <img src={Logo} alt='logo' className='logo' />
@@ -30,4 +30,4 @@ function SignIn() {
   );
 }
 
-export default SignIn;
+export default SignUp;

@@ -4,3 +4,16 @@
     left: 50px;
     top: 20px;
 }
+
+.container-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.container-inputs label {
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+    margin-bottom: 8px;
+}
