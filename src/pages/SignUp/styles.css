@@ -1,46 +1,24 @@
-.container-sign-in {
+.container-sign-up {
     display: flex;
     align-items: center;
     justify-items: center;
+    min-height: 100vh;
+    padding: 110px 0;
 
     position: relative;
 
     font-family: 'Montserrat', sans-serif;
 }
 
-.content-sign-in {
+.content-sign-up {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh;
     min-width: 100vw;
     padding: 0 50px;
 }
 
-.left-side {
-    width: 35%;
-
-    background-color: rgb(46, 37, 230);
-    background-image: url(../../assets/logologo.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-
-    display: flex;
-    flex-direction: column;
-
-}
-
-.rigth-side {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.rigth-side form {
+.content-sign-up form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,6 +28,14 @@
     width: 400px;
 }
 
-.rigth-side form button {
+.content-sign-up form button {
     margin-top: 52px;
+}
+
+.container-sign-up form a {
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }

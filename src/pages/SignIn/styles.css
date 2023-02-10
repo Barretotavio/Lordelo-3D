@@ -53,3 +53,11 @@
 .rigth-side form button {
     margin-top: 52px;
 }
+
+.container-sign-in form a {
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
