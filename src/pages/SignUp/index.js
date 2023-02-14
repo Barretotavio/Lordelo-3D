@@ -1,11 +1,11 @@
 import './styles.css';
-import Logo from '../../assets/logo.svg';
+import loguinho from '../../assets/loguinho.jpeg';
 import { Link } from 'react-router-dom';
 
 function SignUp() {
   return (
     <div className='container-sign-up'>
-      <img src={Logo} alt='logo' className='logo' />
+      <img src={loguinho} alt='logo' className='loguinho' />
       <div className='content-sign-up'>
         <form>
           <h2>Cadastre-se</h2>

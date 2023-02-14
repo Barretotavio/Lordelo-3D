@@ -1,5 +1,5 @@
 import './styles.css';
-import Logo from '../../assets/logo.svg';
+import loguinho from '../../assets/loguinho.jpeg';
 import { Link, useNavigate } from 'react-router-dom';
 
 function SignIn() {
@@ -13,7 +13,7 @@ function SignIn() {
 
   return (
     <div className='container-sign-in'>
-      <img src={Logo} alt='logo' className='logo' />
+      <img src={loguinho} alt='logo' className='loguinho' />
       <div className='content-sign-in'>
         <div className='left-side'>
 
