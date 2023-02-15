@@ -29,10 +29,16 @@ function SignIn() {
               <label htmlFor='password'>Senha</label>
               <input type='password' name='password' />
             </div>
+            <div className='forgot-passsword'>
+              <Link to="/forgot-password">Esqueci minha senha</Link>
+            </div>
             <button className='btn-big btn-blue'>
               Entrar
             </button>
-            <Link to="/sign-up">Ainda não tem conta? Crie agora!</Link>
+            <div className='link-sign-up'>
+              <span>Ainda não tem conta?</span>
+              <Link to="/sign-up">Crie agora!</Link>
+            </div>
           </form>
         </div>
       </div>

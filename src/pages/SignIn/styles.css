@@ -44,8 +44,7 @@
 .rigth-side form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 40px 24px;
+    padding: 20px 24px 40px;
 
     min-height: 420px;
     width: 400px;
@@ -55,10 +54,30 @@
     margin-top: 52px;
 }
 
-.container-sign-in form a {
-    font-size: 12px;
+.container-sign-in form a,
+span {
+    font-size: 11px;
     margin-top: 12px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.forgot-passsword {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-sign-up {
+    display: flex;
+    justify-content: center;
+
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 5px;
 }
