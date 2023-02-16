@@ -1,18 +1,26 @@
 .container-sign-in {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-items: center;
 
+    min-height: 100vh;
     position: relative;
 
     font-family: 'Montserrat', sans-serif;
+}
+
+.loguinho2 {
+    height: 60px;
+    top: 30px;
+    left: 50px;
 }
 
 .content-sign-in {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    min-height: calc();
     min-width: 100vw;
     padding-right: 50px;
 }

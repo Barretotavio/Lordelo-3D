@@ -1,5 +1,5 @@
 import './styles.css';
-import loguinho from '../../assets/loguinho.jpeg';
+import loguinho from '../../assets/loguinho.jpg';
 import { Link } from 'react-router-dom';
 
 function SignUp() {

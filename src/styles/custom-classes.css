@@ -1,8 +1,14 @@
+.loguinho2,
 .loguinho {
-    height: 40px;
     position: absolute;
-    left: 50px;
-    top: 20px;
+}
+
+.container-header-simple {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    width: 100%;
 }
 
 .container-inputs {
@@ -16,4 +22,9 @@
     font-family: 'Roboto', sans-serif;
     color: #000000;
     margin-bottom: 8px;
+}
+
+.width-limit {
+    width: 100%;
+    max-width: 1500px;
 }
